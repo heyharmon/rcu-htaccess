@@ -251,7 +251,8 @@ RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/college$ /accounts/
 
 RedirectMatch 301 ^/businessservices/business\-rates$ /about/business-rates/
 
-RedirectMatch 301 ^/napa\-offer$ /about/contact/locations/napa-branch/
+#Remove requested by Patrick @RCU
+#RedirectMatch 301 ^/napa\-offer$ /about/contact/locations/napa-branch/
 
 RedirectMatch 301 ^/personal/credit\-debit\-cards/mobile\-wallet$ /online-mobile-banking/mobile-wallet/
 
@@ -320,6 +321,7 @@ RedirectMatch 301 ^/financial\-wellness/borrow$ /resources/education/how-to-borr
 
 RedirectMatch 301 ^/investment\-services\-appointment$ /services/investment/team/
 
+#Remove requested by Patrick @RCU
 #RedirectMatch 301 ^/lake\-offer$ /about/contact/locations/lower-lake-branch/
 
 RedirectMatch 301 ^/personal/loans/cesar\-lopez$ /loans/home/mortgage/meet-cesar-lopez/
