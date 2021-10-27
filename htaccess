@@ -1,0 +1,470 @@
+#---------------------
+# Start 301 Redirects
+#---------------------
+
+# Page redirects
+#---------------------
+RedirectMatch 301 ^/personal/online\-atm\-services/online\-banking$ /personal/online-atm-services/online-banking
+
+RedirectMatch 301 ^/about\-rcu/contact\-us$ /about/contact/
+
+RedirectMatch 301 ^/personal/membership/select\-account\-type$ /accounts/account-offerings/
+
+RedirectMatch 301 ^/personal/personal\-rates$ /about/current-mortgage-loan-personal-banking-rates/
+
+RedirectMatch 301 ^/personal/credit\-debit\-cards$ /cards/compare-credit-cards/
+
+RedirectMatch 301 ^/personal/loans/auto\-recreational\-vehicles$ /loans/vehicle/auto-loan/
+
+RedirectMatch 301 ^/personal/home\-loan\-center$ /loans/home/mortgage/
+
+RedirectMatch 301 ^/personal/membership/become\-a\-member$ /accounts/account-offerings/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms$ /about/contact/branch-atm-finder/
+
+RedirectMatch 301 ^/home$ /
+
+RedirectMatch 301 ^/businessservices/online\-eservices/rcu\-online\-banking$ /business/online-mobile-banking/business-online-banking/
+
+RedirectMatch 301 ^/select\-your\-appointment/$ /about/contact/appointments/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/petaluma\-branch$ /about/contact/locations/petaluma-branch/
+
+RedirectMatch 301 ^/personal/checking$ /accounts/checking/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/ukiah\-branch$ /about/contact/locations/ukiah-branch/
+
+RedirectMatch 301 ^/personal/loans$ /loans/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/rohnert\-park\-branch$ /about/contact/locations/rohnert-park-branch/
+
+RedirectMatch 301 ^/personal/loans/personal\-other\-loans$ /loans/personal/
+
+RedirectMatch 301 ^/shared\-branch\-atms\-access$ /about/contact/branch-atm-finder/
+
+RedirectMatch 301 ^/personal/auto\-center\-services$ /services/rcu-auto-services/
+
+RedirectMatch 301 ^/select\-your\-appointment$ /about/contact/appointments/
+
+RedirectMatch 301 ^/personal\-account\-appointment$ /about/contact/appointments/personal-account-appointment/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/mobile\-banking$ /online-mobile-banking/mobile-banking/
+
+RedirectMatch 301 ^/personal/credit\-debit\-cards/visa\-signature\-card$ /cards/compare-credit-cards/visa-signature/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/san\-rafael\-branch$ /about/contact/locations/san-rafael-branch/
+
+RedirectMatch 301 ^/personal/savings/savings\-accounts$ /accounts/savings/
+
+RedirectMatch 301 ^/personal/investment\-services$ /services/investment/
+
+RedirectMatch 301 ^/personal/loans/loanpayments$ /online-mobile-banking/loan-payments/
+
+RedirectMatch 301 ^/personal/savings$ /accounts/savings/
+
+RedirectMatch 301 ^/personal/home\-loan\-center/home\-equity\-loans$ /loans/home/home-equity/home-equity-loan/
+
+RedirectMatch 301 ^/personal/home\-loan\-center/first\-mortgages$ /loans/home/mortgage/
+
+RedirectMatch 301 ^/about\-rcu/careers$ /about/careers/
+
+RedirectMatch 301 ^/personal/redwood\-rewards$ /cards/redwood-rewards/
+
+RedirectMatch 301 ^/about\-rcu/security\-privacy\-deposit\-insurance/security\-center$ /help/security-center/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/santa\-rosa\-office\-fourth\-street$ /about/contact/locations/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/napa\-branch$ /about/contact/locations/napa-branch/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/novato\-branch$ /about/contact/locations/novato-branch/
+
+RedirectMatch 301 ^/personal/credit\-debit\-cards/visa\-platinum$ /business/cards/business-visa-platinum/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/san\-francisco\-market\-street\-office$ /about/contact/locations/san-francisco-branch/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/lower\-lake\-branch$ /about/contact/locations/lower-lake-branch/
+
+RedirectMatch 301 ^/forms/contact_mortgage_team$ /contact-our-mortgage-lending-team/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/sonoma\-branch$ /about/contact/locations/sonoma-branch/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/sebastopol\-branch$ /
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/windsor\-branch$ /
+
+RedirectMatch 301 ^/financial\-wellness/get\-started$ /resources/education/get-started-financial-education/
+
+RedirectMatch 301 ^/personal/savings/money\-market$ /accounts/savings/money-market/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/atms$ /about/contact/branch-atm-finder/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/santa\-rosa\-office\-dutton\-ave$ /about/contact/locations/
+
+RedirectMatch 301 ^/personal/online\-atm\-services$ /about/contact/branch-atm-finder/
+
+RedirectMatch 301 ^/personal$ /accounts/
+
+RedirectMatch 301 ^/personal/forms\-applications$ /help/forms-applications/
+
+RedirectMatch 301 ^/about\-rcu/about\-rcu/why\-rcu$ /about/about-rcu/
+
+RedirectMatch 301 ^/personal/investment\-services/advisor\-appointments$ /about/contact/appointments/investment-services-appointment/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/rcupay$ /online-mobile-banking/peer-to-peer-payments/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/transfers\-payments$ /online-mobile-banking/loan-payments/
+
+RedirectMatch 301 ^/personal/personal\-rates/calculators$ /resources/calculators/
+
+RedirectMatch 301 ^/personal/savings/youth\-accounts$ /accounts/checking/young-adult-checking/
+
+RedirectMatch 301 ^/businessservices/loans$ /business/loans/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/rcu\-online\-banking$ /online-mobile-banking/online-banking/
+
+RedirectMatch 301 ^/seleccione\-su\-cita$ /about/contact/citas/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/cloverdale\-branch$ /about/contact/locations/cloverdale-branch/
+
+RedirectMatch 301 ^/businessservices/checking$ /business/accounts/checking/
+
+RedirectMatch 301 ^/notary\-services\-appointment$ /about/contact/appointments/notary-appointment/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/redwood\-credit\-union\-routing\-number$ /help/routing-number/
+
+RedirectMatch 301 ^/personal/loans/personal\-other\-loans/personal\-lines\-of\-credit$ /loans/personal/personal-line-of-credit/
+
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/blog\-details/redwood\-blog/2021/09/07/protect\-yourself\-when\-shopping\-online$ /about/blog/
+
+RedirectMatch 301 ^/businessservices/membership$ /business/business-membership/
+
+RedirectMatch 301 ^/credit\-unions\-make\-a\-difference$ /about/about-rcu/the-credit-union-difference/
+
+RedirectMatch 301 ^/personal/loans/recreational\-vehicles$ /loans/vehicle/rv-boat-trailer/
+
+RedirectMatch 301 ^/auto\-loan\-appointment$ /about/contact/appointments/auto-loan-appointment/
+
+RedirectMatch 301 ^/mobile\-and\-online\-banking$ /online-mobile-banking/
+
+RedirectMatch 301 ^/personal/auto\-center\-services/rcu\-auto\-services\-\(rcuas\)$ /services/rcu-auto-services/
+
+RedirectMatch 301 ^/notary\-appointment$ /about/contact/appointments/notary-appointment/
+
+RedirectMatch 301 ^/personal/investment\-services/meet\-our\-advisors$ /services/investment/team/
+
+RedirectMatch 301 ^/forms/contact_our_investment_services_team$ /services/investment/team/
+
+RedirectMatch 301 ^/mortgage\-loan\-appointment/$ /about/contact/appointments/mortgage-loan-appointment/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/santa\-rosa\-office\-cleveland\-ave$ /about/contact/branch-atm-finder/
+
+RedirectMatch 301 ^/personal/home\-loan\-center/mortgage\-calculator$ /loans/home/mortgage/mortgage-calculators/
+
+RedirectMatch 301 ^/about\-rcu/about\-rcu/why\-rcu/leadership$ /about/about-rcu/leadership/
+
+RedirectMatch 301 ^/about\-rcu/careers/current\-openings$ /about/careers/
+
+RedirectMatch 301 ^/personal/insurance$ /services/personal-insurance/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/rcu\-bill\-pay$ /online-mobile-banking/bill-pay/
+
+RedirectMatch 301 ^/personal/savings/certificates$ /accounts/savings/savings-certificates/
+
+RedirectMatch 301 ^/site\-map$ /sitemap/
+
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/shred\-a\-thon$ /2021/07/24/shred-a-thons/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/santa\-rosa\-office\-mendocino\-ave$ /about/contact/branch-atm-finder/
+
+RedirectMatch 301 ^/about\-rcu/security\-privacy\-deposit\-insurance$ /help/security-privacy-deposit-insurance/
+
+RedirectMatch 301 ^/cita\-cuenta\-personal$ /about/contact/seleccione-su-cita/cita-para-cuenta-personal/
+
+RedirectMatch 301 ^/personal/home\-loan\-center/solar\-loans$ /loans/home/home-solar-loan/
+
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/card\-activation$ /about/blog/
+
+RedirectMatch 301 ^/personal/checking/free\-checking$ /accounts/checking/free-checking/
+
+RedirectMatch 301 ^/personal/home\-loan\-center/refi\-calculator$ /loans/home/mortgage/mortgage-calculators/
+
+RedirectMatch 301 ^/businessservices$ /business/services/
+
+RedirectMatch 301 ^/site/frame_set/home\.html$ /
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/mill\-valley$ /about/contact/locations/mill-valley-branch/
+
+RedirectMatch 301 ^/personal/auto\-center\-services/finance\-car$ /services/rcu-auto-services/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/american\-canyon\-branch$ /about/contact/locations/american-canyon-branch/
+
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/redwood\-review$ /category/news/redwood-review/
+
+RedirectMatch 301 ^/personal/credit\-debit\-cards/credit\-and\-debit\-card\-security\-information$ /cards/compare-credit-cards/
+
+RedirectMatch 301 ^/site/eservices_online\.html$ /online-mobile-banking/online-banking/
+
+RedirectMatch 301 ^/about\-rcu/about\-rcu/for\-the\-planet$ /about/about-rcu/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/ask\-rcu$ /online-mobile-banking/
+
+RedirectMatch 301 ^/businessservices/credit\-debit\-atm\-cards$ /business/cards/
+
+RedirectMatch 301 ^/ppp\-resource\-center/loan\-forgiveness\-center$ /ppp-resource-center/
+
+RedirectMatch 301 ^/credit\-card\-appointment$ /about/contact/appointments/credit-card-appointment/
+
+RedirectMatch 301 ^/personal/loans/auto\-recreational\-vehicles$ /loans/vehicle/auto-loan/
+
+RedirectMatch 301 ^/financial\-wellness/save$ /resources/education/how-to-save-money/
+
+RedirectMatch 301 ^/businessservices/loans/sba\-loans$ /business/loans/sba-business-loans-and-504-business-loans/
+
+RedirectMatch 301 ^/personal/credit\-debit\-cards/visa\-signature\-card/rewards$ /cards/credit/redwood-rewards-overview/
+
+RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/point\-arena\-branch$ /about/contact/locations/point-arena-branch/
+
+RedirectMatch 301 ^/personal/savings/individual\-retirement\-accounts\-\(ira\)$ /accounts/retirement/traditional-ira/
+
+RedirectMatch 301 ^/youth\-account\-appointment$ /about/contact/appointments/youth-account-appointment/
+
+RedirectMatch 301 ^/about\-rcu/about\-rcu/why\-rcu/overview$ /about/who-we-are/about-rcu/
+
+RedirectMatch 301 ^/business\-account\-appointment$ /about/contact/appointments/business-account-appointment/
+
+RedirectMatch 301 ^/personal\-loan\-appointment$ /about/contact/appointments/personal-loan-appointment/
+
+RedirectMatch 301 ^/personal/credit\-debit\-cards/about\-emv$ /cards/emv-chip-technology/
+
+#Remove requested by Patrick @RCU
+#RedirectMatch 301 ^/podcast/$ /about/blog/
+
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/blog\-details/redwood\-blog/2020/12/07/frequently\-asked\-questions\-about\-atms$ /about/blog/
+
+RedirectMatch 301 ^/financial\-wellness/resource\-center$ /resources/education/get-started-financial-education/
+
+RedirectMatch 301 ^/personal/loans/terri\-mitchell$ /loans/home/mortgage/meet-terri-mitchell/
+
+RedirectMatch 301 ^/ticloans$ /tic-loans/
+
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/college$ /accounts/checking/young-adult-checking/
+
+RedirectMatch 301 ^/businessservices/business\-rates$ /about/business-rates/
+
+RedirectMatch 301 ^/napa\-offer$ /about/contact/locations/napa-branch/
+
+RedirectMatch 301 ^/personal/credit\-debit\-cards/mobile\-wallet$ /online-mobile-banking/mobile-wallet/
+
+RedirectMatch 301 ^/personal/membership/become\-a\-member\-tablet$ /accounts/account-offerings/
+
+RedirectMatch 301 ^/sf\-mortgage\-offer/Action/Preview$ /loans/home/mortgage/
+
+RedirectMatch 301 ^/trust\-account\-appointment$ /about/contact/appointments/trust-account-appointment/
+
+RedirectMatch 301 ^/businessservices/loans/commercial\-real\-estate\-loans$ /business/loans/commercial-real-estate/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/estatements$ /online-mobile-banking/estatements/
+
+RedirectMatch 301 ^/about\-rcu/community\-program$ /about/community-programs/
+
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/blog\-details/redwood\-blog/2021/09/10/we've\-got\-you\-covered$ /about/blog/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/alerts$ /business/online-mobile-banking/
+
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/blog\-details/redwood\-blog/2021/09/08/making\-the\-season\-bright$ /about/blog/
+
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/blog\-details/redwood\-blog/2021/09/10/safe\-and\-trusted\-for\-you$ /about/blog/
+
+RedirectMatch 301 ^/businessservices/loans/term\-loans$ /business/loans/small-business-term-loan/
+
+RedirectMatch 301 ^/financial\-wellness/calculators$ /resources/calculators/
+
+RedirectMatch 301 ^/ira\-account\-appointment$ /about/contact/appointments/ira-account-appointment/
+
+RedirectMatch 301 ^/about\-rcu/about\-rcu/why\-rcu/rcu\-history$ /about/who-we-are/history/
+
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/select\-employer\-group$ /seg-saving/
+
+RedirectMatch 301 ^/ask\-rcu/ask\-rcu\-answers$ /about/contact/
+
+RedirectMatch 301 ^/businessservices/merchant\-services$ /business/services/merchant-services-and-payment-processing/
+
+RedirectMatch 301 ^/iframes/login\.html$ /
+
+RedirectMatch 301 ^/debt\-consolidation\-loan\-appointment$ /about/contact/appointments/debt-consolidation-loan-appointment/
+
+#RedirectMatch 301 ^/index\.html$ /
+
+RedirectMatch 301 ^/personal/credit\-debit\-cards/visa\-signature\-card/compare$ /cards/compare-credit-cards/visa-signature/
+
+RedirectMatch 301 ^/sf\-mortgage\-offer$ /loans/home/mortgage/
+
+RedirectMatch 301 ^/about\-rcu/about\-rcu/why\-rcu/our\-vision\-and\-mission$ /about/about-rcu/our-vision-and-mission/
+
+RedirectMatch 301 ^/forms/insurance_general$ /services/personal-insurance/
+
+RedirectMatch 301 ^/about\-rcu/about\-rcu/rcu\-publications$ /about/news/publications/
+
+RedirectMatch 301 ^/community/community\-requests$ /about/community-programs/community-requests/
+
+RedirectMatch 301 ^/shared\-branch\-atms\-access$ /about/contact/branch-atm-finder/
+
+RedirectMatch 301 ^/personal/savings/health\-savings\-accounts$ /accounts/savings/health-savings-account-hsa/
+
+RedirectMatch 301 ^/ask\-rcu/ask\-rcu\-answers$ /cards/credit/compare-credit-cards/
+
+RedirectMatch 301 ^/coronavirus$ /homepage/corona-virus/
+
+RedirectMatch 301 ^/financial\-wellness/borrow$ /resources/education/how-to-borrow-money/
+
+RedirectMatch 301 ^/investment\-services\-appointment$ /services/investment/team/
+
+RedirectMatch 301 ^/lake\-offer$ /about/contact/locations/lower-lake-branch/
+
+RedirectMatch 301 ^/personal/loans/cesar\-lopez$ /loans/home/mortgage/meet-cesar-lopez/
+
+RedirectMatch 301 ^/personal/home\-loan\-center\-sf$ /loans/home/mortgage/
+
+RedirectMatch 301 ^/personal/loans/online\-loan\-approval$ /loans/
+
+RedirectMatch 301 ^/shared\-branch\-atms\-access$ /about/contact/branch-atm-finder/
+
+RedirectMatch 301 ^/about\-rcu/about\-rcu/the\-credit\-union\-difference$ /about/who-we-are/the-credit-union-difference/
+
+RedirectMatch 301 ^/about\-rcu/press\-room$ /about/press/press-room/
+
+RedirectMatch 301 ^/businessservices/savings$ /business/accounts/savings/
+
+RedirectMatch 301 ^/federal\-relief\-updates/$ /homepage/federal-relief-updates/
+
+RedirectMatch 301 ^/ppp\-resource\-center/loan\-forgiveness\-center/loans\-less\-than\-150k/$ /ppp-resource-center/
+
+RedirectMatch 301 ^/personal/loans/sheila\-o'neill$ /contact-sheila-oneill/
+
+RedirectMatch 301 ^/sf\-mortgage\-offer/$ /loans/home/mortgage/
+
+RedirectMatch 301 ^/businessservices/loans/lines\-of\-credit$ /business/loans/business-line-of-credit/
+
+RedirectMatch 301 ^/personal/credit\-debit\-cards/visa\-signature\-card/benefits$ /cards/credit/visa-signature/
+
+RedirectMatch 301 ^/personal/investment\-services/citas$ /about/contact/citas/
+
+RedirectMatch 301 ^/businessservices/online\-eservices$ /business/online-mobile-banking/
+
+RedirectMatch 301 ^/businessservices/online\-eservices/bill\-pay$ /online-mobile-banking/bill-pay/
+
+RedirectMatch 301 ^/community$ /about/community-programs/
+
+RedirectMatch 301 ^/financial\-wellness/en\-espanol$ /resources/en-espanol-educacion-financiera/
+
+RedirectMatch 301 ^/home\-equity\-loan\-appointment$ /about/contact/appointments/home-equity-loan-appointment/
+
+RedirectMatch 301 ^/lake\-offer/$ /about/contact/locations/lower-lake-branch/
+
+RedirectMatch 301 ^/products$ /loans
+
+RedirectMatch 301 ^/sf\-investment\-offer$ /services/investment/
+
+RedirectMatch 301 ^/about\-rcu/member\-services\-contact\-information/member\-services$ /about/community-programs/rcu-services-standards/
+
+RedirectMatch 301 ^/forms/auto_center_contact$ /services/rcu-auto-services/
+
+RedirectMatch 301 ^/save$ /accounts/savings/
+
+RedirectMatch 301 ^/lake\-offer/Action/Preview$ /about/contact/locations/lower-lake-branch/
+
+RedirectMatch 301 ^/notary\-appointment/important\-information$ /about/contact/appointments/notary-appointment/
+
+RedirectMatch 301 ^/businessservices/membership/$ /business/business-membership/
+
+RedirectMatch 301 ^/cita\-para\-prestamo\-de\-vehiculo$ /about/contact/citas/cita-para-prestamo-de-vehiculo/
+
+RedirectMatch 301 ^/community/community\-resources$ /about/community-programs/community-resources/
+
+RedirectMatch 301 ^/community/rcu\-in\-the\-community$ /about/community-programs/rcu-community-commitment/
+
+RedirectMatch 301 ^/financial\-wellness/plan$ /resources/education/how-to-plan-money/
+
+RedirectMatch 301 ^/about\-rcu/about\-rcu/the\-credit\-union\-difference/the\-credit\-union\-difference\-overview$ /about/who-we-are/the-credit-union-difference/
+
+RedirectMatch 301 ^/businessservices/insurance$ /business/services/business-insurance/
+
+RedirectMatch 301 ^/businessservices/online\-eservices/business\-online\-deposit$ /business/online-mobile-banking/business-online-deposit/
+
+RedirectMatch 301 ^/community/community\-fund$ /about/community-programs/rcu-community-fund/
+
+# Redirects for press releases
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/09/07/redwood\-credit\-union\-promotes\-deirdre\-thompson\-to\-senior\-vice\-president\-of\-virtual\-service\-delivery$ /about/blog/press-releases/redwood-credit-union-promotes-deirdre-thompson-to-senior-vice-president-of-virtual-service-delivery/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/08/30/michelle\-anderson\-joins\-redwood\-credit\-union\-as\-chief\-lending\-officer$ /about/blog/press-releases/michelle-anderson-joins-redwood-credit-union-as-chief-lending-officer/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/08/23/redwood\-credit\-union\-makes\-forbes\-list\-of\-america\-s\-best\-credit\-unions$ /about/blog/press-releases/redwood-credit-union-makes-forbes-list-of-americas-best-credit-unions-2021/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/08/12/redwood\-credit\-union\-s\-annual\-shred\-a\-thon\-returns\-to\-marin\-august\-28$ /about/blog/press-releases/redwood-credit-union-s-annual-shred-a-thon-returns-to-marin-august-28/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/07/28/redwood\-credit\-union\-welcomes\-new\-vice\-president\-of\-product\-and\-service\-innovation\-bryan\-haas$ /about/blog/press-releases/redwood-credit-union-welcomes-new-vice-president-of-product-and-service-innovation-bryan-haas/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/07/28/redwood\-credit\-union\-s\-annual\-shred\-a\-thon\-returns\-to\-napa\-august\-7$ /about/blog/press-releases/redwood-credit-union-s-annual-shred-a-thon-returns-to-napa-august-7/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/07/27/redwood\-credit\-union\-s\-annual\-shred\-a\-thon\-returns\-to\-ukiah\-july\-24$ /about/blog/press-releases/redwood-credit-union-s-annual-shred-a-thon-returns-to-ukiah-july-24/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/07/16/human\-resources\-leader\-kashi\-moore\-stallworth\-joins\-redwood\-credit\-union\-in\-preparation\-for\-continued\-napa\-region\-expansion$ /about/blog/press-releases/human-resources-leader-kashi-moore-stallworth-joins-redwood-credit-union-in-preparation-for-continued-napa-region-expansion/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/11/03/redwood\-credit\-union\-s\-international\-credit\-union\-day\-celebration\-raises\-more\-than\-36\-000\-for\-local\-food\-banks$ /about/blog/press-releases/redwood-credit-union-s-international-credit-union-day-celebration-raises-more-than-36-000-for-local-food-banks/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/05/17/redwood\-credit\-union\-elects\-board\-of\-directors$ /about/blog/press-releases/redwood-credit-union-elects-board-of-directors/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/05/06/redwood\-credit\-union\-wins\-industry\-marketing\-awards$ /about/blog/press-releases/redwood-credit-union-wins-industry-marketing-awards/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/04/12/redwood\-credit\-union\-celebrates\-youth\-month\-with\-a\-dinosaur\-theme\-and\-contests$ /about/blog/press-releases/redwood-credit-union-celebrates-youth-month-with-a-dinosaur-theme-and-contests/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/01/27/helping\-kids\-cope\-redwood\-credit\-union\-launches\-video\-series\-for\-students\-and\-families\-managing\-through\-challenging\-times$ /about/blog/press-releases/helping-kids-cope-redwood-credit-union-launches-video-series-for-students-and-families-managing-through-challenging-times/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2021/01/06/2020\-fire\-relief\-fund\-distributes\-424\-420\-wraps\-up\-fund$ /about/blog/press-releases/2020-fire-relief-fund-distributes-424-420-wraps-up-fund/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/12/14/redwood\-credit\-union\-names\-new\-lending\-operations\-manager$ /about/blog/press-releases/redwood-credit-union-names-new-lending-operations-manager/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/10/22/redwood\-credit\-union\-names\-jeri\-hansen\-david\-gouin\-as\-new\-associate\-board\-members$ /about/blog/press-releases/redwood-credit-union-names-jeri-hansen-david-gouin-as-new-associate-board-members/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/07/28/redwood\-credit\-union\-promotes\-will\-thorn\-to\-vice\-president\-of\-human\-resources\-and\-training$ /about/blog/press-releases/redwood-credit-union-promotes-will-thorn-to-vice-president-of-human-resources-and-training/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/07/22/redwood\-credit\-union\-welcomes\-new\-san\-rafael\-branch\-experience\-manager$ /about/blog/press-releases/redwood-credit-union-welcomes-new-san-rafael-branch-experience-manager/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/06/23/redwood\-credit\-union\-hosts\-free\-webcast\-on\-self\-care\-and\-stress\-management$ /about/blog/press-releases/redwood-credit-union-hosts-free-webcast-on-self-care-and-stress-management/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/03/16/redwood\-credit\-union\-ranks\-4th\-in\-nation$ /about/blog/press-releases/redwood-credit-union-ranks-4th-in-nation/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/03/03/redwood\-credit\-union\-names\-new\-mendocino\-avenue\-branch\-experience\-manager\-johanna\-szostak$ /about/blog/press-releases/redwood-credit-union-names-new-mendocino-avenue-branch-experience-manager-johanna-szostak/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/02/19/redwood\-credit\-union\-promotes\-nick\-clay\-to\-external\-real\-estate\-manager$ /about/blog/press-releases/redwood-credit-union-promotes-nick-clay-to-external-real-estate-manager/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/02/12/redwood\-credit\-union\-welcomes\-new\-lower\-lake\-branch\-experience\-manager$ /about/blog/press-releases/redwood-credit-union-welcomes-new-lower-lake-branch-experience-manager/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2020/01/02/redwood\-credit\-union\-welcomes\-kristen\-mahlmann\-as\-senior\-vice\-president\-of\-accounting\-and\-finance$ /about/blog/press-releases/redwood-credit-union-welcomes-kristen-mahlmann-as-senior-vice-president-of-accounting-and-finance/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2019/07/17/redwood\-credit\-union\-offers\-free\-document\-shredding\-for\-sonoma\-county\-residents$ /about/blog/press-releases/redwood-credit-union-offers-free-document-shredding-for-sonoma-county-residents/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2018/12/21/redwood\-credit\-union\-names\-new\-manager\-of\-mortgage\-lending$ /about/blog/press-releases/redwood-credit-union-names-new-manager-of-mortgage-lending/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2018/05/10/redwood\-credit\-union\-finishes\-strong\-in\-the\-race\-to\-support\-local\-nonprofits$ /about/blog/press-releases/redwood-credit-union-finishes-strong-in-the-race-to-support-local-nonprofits/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2018/01/17/redwood\-credit\-union\-receives\-heart\-of\-marin\-corporate\-community\-service\-award$ /about/blog/press-releases/redwood-credit-union-receives-heart-of-marin-corporate-community-service-award/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2017/09/15/redwood\-credit\-union\-helps\-local\-residents\-securely\-dispose\-of\-two\-and\-a\-half\-tons\-of\-confidential\-paperwork$ /about/blog/press-releases/redwood-credit-union-helps-local-residents-securely-dispose-of-two-and-a-half-tons-of-confidential-paperwork/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2016/12/06/redwood\-credit\-union\-hosts\-holiday\-toy\-and\-food\-drives$ /about/blog/press-releases/redwood-credit-union-hosts-holiday-toy-and-food-drives/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2016/08/17/redwood\-credit\-union\-offers\-financial\-assistance\-br\-programs\-for\-victims\-of\-lake\-county\-clayton\-fire$ /about/blog/press-releases/redwood-credit-union-offers-financial-assistance-br-programs-for-victims-of-lake-county-clayton-fire/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2015/11/05/local\-community\-gets\-free\-financial\-lessons\-from\-money\-rules\-author\-jean\-chatzky\-br\-em\-redwood\-credit\-union's\-financial\-literacy\-event\-at\-sonoma\-state\-university\-reaches\-all\-ages\-em$ /about/blog/press-releases/local-community-gets-free-financial-lessons-from-money-rules-author-jean-chatzky-br-em-redwood-credit-unions-financial-literacy-event-at-sonoma-state-university-reaches-all-ages-em/
+
+RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2014/05/07/rcu\-strikes\-fundraising\-success\-bowling\-for\-kids\-sake$ /about/blog/press-releases/rcu-strikes-fundraising-success-bowling-for-kids-sake/
+
+
+# Wildcard redirects for blog
+#---------------------
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/(.+?)(-[0-9]+)?$ /about/blog/
+
+#---------------------
+# End 301 Redirects
+#---------------------
