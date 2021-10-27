@@ -297,7 +297,8 @@ RedirectMatch 301 ^/debt\-consolidation\-loan\-appointment$ /about/contact/appoi
 
 RedirectMatch 301 ^/personal/credit\-debit\-cards/visa\-signature\-card/compare$ /cards/compare-credit-cards/visa-signature/
 
-RedirectMatch 301 ^/sf\-mortgage\-offer$ /loans/home/mortgage/
+#Remove requested by Patrick @RCU
+#RedirectMatch 301 ^/sf\-mortgage\-offer$ /loans/home/mortgage/
 
 RedirectMatch 301 ^/about\-rcu/about\-rcu/why\-rcu/our\-vision\-and\-mission$ /about/about-rcu/our-vision-and-mission/
 
@@ -319,7 +320,7 @@ RedirectMatch 301 ^/financial\-wellness/borrow$ /resources/education/how-to-borr
 
 RedirectMatch 301 ^/investment\-services\-appointment$ /services/investment/team/
 
-RedirectMatch 301 ^/lake\-offer$ /about/contact/locations/lower-lake-branch/
+#RedirectMatch 301 ^/lake\-offer$ /about/contact/locations/lower-lake-branch/
 
 RedirectMatch 301 ^/personal/loans/cesar\-lopez$ /loans/home/mortgage/meet-cesar-lopez/
 
@@ -341,7 +342,8 @@ RedirectMatch 301 ^/ppp\-resource\-center/loan\-forgiveness\-center/loans\-less\
 
 RedirectMatch 301 ^/personal/loans/sheila\-o'neill$ /contact-sheila-oneill/
 
-RedirectMatch 301 ^/sf\-mortgage\-offer/$ /loans/home/mortgage/
+#Remove requested by Patrick @RCU
+#RedirectMatch 301 ^/sf\-mortgage\-offer/$ /loans/home/mortgage/
 
 RedirectMatch 301 ^/businessservices/loans/lines\-of\-credit$ /business/loans/business-line-of-credit/
 
@@ -363,6 +365,7 @@ RedirectMatch 301 ^/lake\-offer/$ /about/contact/locations/lower-lake-branch/
 
 RedirectMatch 301 ^/products$ /loans
 
+#Remove requested by Patrick @RCU
 RedirectMatch 301 ^/sf\-investment\-offer$ /services/investment/
 
 RedirectMatch 301 ^/about\-rcu/member\-services\-contact\-information/member\-services$ /about/community-programs/rcu-services-standards/
