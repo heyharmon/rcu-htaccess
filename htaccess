@@ -363,8 +363,6 @@ RedirectMatch 301 ^/financial\-wellness/en\-espanol$ /resources/en-espanol-educa
 
 RedirectMatch 301 ^/home\-equity\-loan\-appointment$ /about/contact/appointments/home-equity-loan-appointment/
 
-RedirectMatch 301 ^/lake\-offer/$ /about/contact/locations/lower-lake-branch/
-
 RedirectMatch 301 ^/products$ /loans
 
 #Remove requested by Patrick @RCU
@@ -376,7 +374,7 @@ RedirectMatch 301 ^/forms/auto_center_contact$ /services/rcu-auto-services/
 
 RedirectMatch 301 ^/save$ /accounts/savings/
 
-RedirectMatch 301 ^/lake\-offer/Action/Preview$ /about/contact/locations/lower-lake-branch/
+RedirectMatch 301 ^/lake\-offer/Action/Preview$ /lake-offer/
 
 RedirectMatch 301 ^/notary\-appointment/important\-information$ /about/contact/appointments/notary-appointment/
 
