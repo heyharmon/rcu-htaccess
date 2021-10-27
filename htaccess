@@ -366,7 +366,7 @@ RedirectMatch 301 ^/lake\-offer/$ /about/contact/locations/lower-lake-branch/
 RedirectMatch 301 ^/products$ /loans
 
 #Remove requested by Patrick @RCU
-RedirectMatch 301 ^/sf\-investment\-offer$ /services/investment/
+#RedirectMatch 301 ^/sf\-investment\-offer$ /services/investment/
 
 RedirectMatch 301 ^/about\-rcu/member\-services\-contact\-information/member\-services$ /about/community-programs/rcu-services-standards/
 
