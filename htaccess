@@ -463,6 +463,17 @@ RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2015/11/05/loca
 
 RedirectMatch 301 ^/about\-rcu/press\-room\-back/press\-releases/2014/05/07/rcu\-strikes\-fundraising\-success\-bowling\-for\-kids\-sake$ /about/blog/press-releases/rcu-strikes-fundraising-success-bowling-for-kids-sake/
 
+RedirectMatch 301 ^/businessservices/online\-eservices/estatements$ /business/online-mobile-banking/business-online-banking/
+
+RedirectMatch 301 ^/businessservices/online\-eservices/visa\-online$ /business/cards/business-visa-platinum/
+
+RedirectMatch 301 ^/ask\-rcu/article$ /
+
+RedirectMatch 301 ^/products/personal/online\-eservices\-mobile/rcu\-online\-banking$ /online-mobile-banking/online-banking/
+
+RedirectMatch 301 ^/products/personal/credit\-debit\-atm\-cards/credit\-debit\-atm\-cards$ /cards/compare-credit-cards/
+
+RedirectMatch 301 ^/products/personal/loans/auto\-recreational\-vehicles$ /loans/vehicle/auto-loan/
 
 # Wildcard redirects for blog
 #---------------------
