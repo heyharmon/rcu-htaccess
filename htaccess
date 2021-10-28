@@ -493,6 +493,10 @@ RedirectMatch 301 ^/cita\-para\-servicio\-de\-seguro\-para\-negocio$ /about/cont
 
 RedirectMatch 301 ^/visa$ /cards/compare-credit-cards/
 
+RedirectMatch 301 ^/investments$ /services/investment/
+
+RedirectMatch 301 ^/freechecking$ /accounts/checking/free-checking/
+
 # Wildcard redirects for blog
 #---------------------
 RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/(.+?)(-[0-9]+)?$ /about/blog/
