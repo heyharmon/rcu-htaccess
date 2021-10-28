@@ -491,6 +491,8 @@ RedirectMatch 301 ^/cita\-para\-servicio\-de\-seguro\-personal$ /about/contact/c
 
 RedirectMatch 301 ^/cita\-para\-servicio\-de\-seguro\-para\-negocio$ /about/contact/citas/cita-para-servicio-de-seguro-para-negocio/
 
+RedirectMatch 301 ^/visa$ /cards/compare-credit-cards/
+
 # Wildcard redirects for blog
 #---------------------
 RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/(.+?)(-[0-9]+)?$ /about/blog/
