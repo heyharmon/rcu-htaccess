@@ -4,7 +4,8 @@
 
 # Page redirects
 #---------------------
-RedirectMatch 301 ^/personal/online\-atm\-services/online\-banking$ /personal/online-atm-services/online-banking
+
+RedirectMatch 301 ^/personal/online\-atm\-services/online\-banking$ /online-mobile-banking/online-banking/
 
 RedirectMatch 301 ^/about\-rcu/contact\-us$ /about/contact/
 
