@@ -100,7 +100,7 @@ RedirectMatch 301 ^/personal/online\-atm\-services/atms$ /about/contact/branch-a
 
 RedirectMatch 301 ^/about\-rcu/locations\-hours\-atms/santa\-rosa\-office\-dutton\-ave$ /about/contact/locations/
 
-RedirectMatch 301 ^/personal/online\-atm\-services$ /about/contact/branch-atm-finder/
+RedirectMatch 301 ^/personal/online\-atm\-services$ /online-mobile-banking/
 
 RedirectMatch 301 ^/personal$ /accounts/
 
