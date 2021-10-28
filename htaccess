@@ -497,6 +497,46 @@ RedirectMatch 301 ^/investments$ /services/investment/
 
 RedirectMatch 301 ^/freechecking$ /accounts/checking/free-checking/
 
+RedirectMatch 301 ^/homeloan$ /loans/home/mortgage/
+
+RedirectMatch 301 ^/youth$ /accounts/savings/youth/
+
+RedirectMatch 301 ^/business$ /business/business-membership/
+
+RedirectMatch 301 ^/RCUpay$ /online-mobile-banking/peer-to-peer-payments/
+
+RedirectMatch 301 ^/wellness$ /resources/education/get-started-financial-education/
+
+RedirectMatch 301 ^/financial\-wellness$ /resources/education/get-started-financial-education/
+
+RedirectMatch 301 ^/SEG$ /about/membership/select-employer-groups/
+
+RedirectMatch 301 ^/bike$ /loans/vehicle/bicycle-loan/
+
+RedirectMatch 301 ^/bicycle$ /loans/vehicle/bicycle-loan/
+
+RedirectMatch 301 ^/bikeloans$ /loans/vehicle/bicycle-loan/
+
+RedirectMatch 301 ^/LOC$ /loans/personal/personal-line-of-credit/
+
+RedirectMatch 301 ^/insurance$ https://www.rcuinsuranceservices.com/
+
+RedirectMatch 301 ^/ticloans$ /tic-loans/
+
+RedirectMatch 301 ^/balance$ /resources/education/resource-center/
+
+RedirectMatch 301 ^/estatements$ /online-mobile-banking/estatements/
+
+RedirectMatch 301 ^/eservices$ /online-mobile-banking/
+
+RedirectMatch 301 ^/careers$ /about/careers/why-work-here/
+
+RedirectMatch 301 ^/security$ /help/security-center/
+
+RedirectMatch 301 ^/heloc$ /loans/home/home-equity/
+
+RedirectMatch 301 ^/personal/online\-atm\-services/atms$ /about/contact/atms/
+
 # Wildcard redirects for blog
 #---------------------
 RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/(.+?)(-[0-9]+)?$ /about/blog/
