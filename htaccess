@@ -544,6 +544,15 @@ RedirectMatch 301 ^/products/personal/loans/personal\-other\-loans$ /about/curre
 #---------------------
 RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/(.+?)(-[0-9]+)?$ /about/blog/
 
+# PDF File Redirects
+#---------------------
+
+# Query string sfvrsn=ab5f2c8_2 ignored!
+RedirectMatch 301 ^/docs/default\-source/pdfs/membership_account_disclosure_electronic_2014\.pdf$ https://www.redwoodcu.org/ask-rcu/3207/
+
+# Query string sfvrsn=36b5f2c8_2 ignored!
+RedirectMatch 301 ^/docs/default\-source/pdfs/costrecovery_11_21_2018\.pdf$ https://www.redwoodcu.org/ask-rcu/2003/
+
 #---------------------
 # End 301 Redirects
 #---------------------
