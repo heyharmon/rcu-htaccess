@@ -553,6 +553,30 @@ RedirectMatch 301 ^/docs/default\-source/pdfs/membership_account_disclosure_elec
 # Query string sfvrsn=36b5f2c8_2 ignored!
 RedirectMatch 301 ^/docs/default\-source/pdfs/costrecovery_11_21_2018\.pdf$ https://www.redwoodcu.org/ask-rcu/2003/
 
+# Image File Redirects
+#---------------------
+
+# Query string sfvrsn=0 ignored!
+RedirectMatch 301 ^/sf\-images/site\-images/logo\-redwood\-credit\-union\.png$ https://static.redwoodcu.org/Images/logo-redwood-credit-union.png
+
+RedirectMatch 301 ^/sf\-images/site\-images/logo\-redwood\-credit\-union\.png$ https://static.redwoodcu.org/Images/logo-redwood-credit-union.png
+
+# Query string sfvrsn=2 ignored!
+RedirectMatch 301 ^/sf\-images/default\-source/landing\-pages/ecomm_header_lime\.jpg$ https://static.redwoodcu.org/Images/ecomm_header_lime.jpg
+
+RedirectMatch 301 ^/sf\-images/default\-source/landing\-pages/ecomm_header_lime\.jpg$ https://static.redwoodcu.org/Images/ecomm_header_lime.jpg
+
+RedirectMatch 301 ^/sf\-images/default\-source/landing\-pages/ecomm_footer_lime\.jpg$ https://static.redwoodcu.org/Images/ecomm_footer_lime.jpg
+
+# Query string %20%20%20%20%20%20%20%20%20%20%20%20Status=Temp&sfvrsn=2 ignored!
+RedirectMatch 301 ^/sf\-images/site\-images/equal_housing_lender\.png$ https://static.redwoodcu.org/Images/equal_housing_lender.png
+
+RedirectMatch 301 ^/sf\-images/site\-images/equal_housing_lender\.png$ https://static.redwoodcu.org/Images/equal_housing_lender.png
+
+RedirectMatch 301 ^/sf\-images/online\-mobile\-banking/header\-offline\-480\.png$ https://static.redwoodcu.org/Images/header-offline-480.png
+
+RedirectMatch 301 ^/sf\-images/online\-mobile\-banking/header\-offline\.png$ https://static.redwoodcu.org/Images/header-offline.png
+
 #---------------------
 # End 301 Redirects
 #---------------------
