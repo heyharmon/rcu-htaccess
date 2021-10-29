@@ -1,3 +1,133 @@
+
+#wp-login acess limiting
+<Files wp-login.php>
+        order deny,allow
+        Deny from all
+allow from 50.227.120.0/24
+allow from 50.206.22.64/27
+allow from 67.203.104.0/25
+allow from 98.184.170.90
+allow from 107.209.20.243
+allow from 54.191.137.17
+allow from 136.36.75.242
+allow from 198.217.123.5
+
+ 
+</Files>
+
+
+
+# Enable Gzip
+# <IfModule mod_deflate.c>
+#     AddOutputFilterByType DEFLATE application/javascript
+#     AddOutputFilterByType DEFLATE text/css
+#     AddOutputFilterByType DEFLATE text/html
+#     AddOutputFilterByType DEFLATE text/javascript
+#     AddOutputFilterByType DEFLATE text/plain
+#     AddOutputFilterByType DEFLATE text/xml
+# </IfModule>
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+	RewriteBase /
+	RewriteRule ^index\.php$ - [L]
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+# TN - START EXPIRES CACHING #
+# <IfModule mod_expires.c>
+# ExpiresActive On
+
+# ExpiresDefault "access plus 1 month"
+
+# ExpiresByType text/css "access plus 1 month"
+# ExpiresByType text/javascript "access plus 1 month"
+# ExpiresByType text/html "access plus 1 month"
+# ExpiresByType image/gif "access plus 1 year"
+# ExpiresByType image/png "access plus 1 year"
+# ExpiresByType image/jpg "access plus 1 year"
+# ExpiresByType image/jpeg "access plus 1 year"
+# ExpiresByType image/webp "access plus 1 year"
+# ExpiresByType image/x-icon "access plus 1 year"
+# ExpiresByType image/svg+xml "access plus 1 month"
+# ExpiresByType image/svg "access plus 1 year"
+# ExpiresByType audio/ogg "access plus 1 year"
+# ExpiresByType video/mp4 "access plus 1 year"
+# ExpiresByType video/mpeg "access plus 1 year"
+# ExpiresByType video/ogg "access plus 1 year"
+# ExpiresByType video/webm "access plus 1 year"
+# ExpiresByType application/atom+xml "access plus 1 hour"
+# ExpiresByType application/rss+xml "access plus 1 hour"
+# ExpiresByType application/pdf "access plus 1 month"
+# ExpiresByType application/javascript "access plus 1 month"
+# ExpiresByType text/x-javascript "access plus 1 month"
+# ExpiresByType application/xhtml-xml "access plus 1 month"
+# ExpiresByType text/x-component "access plus 1 month"
+# ExpiresByType application/x-shockwave-flash "access plus 1 month"
+# ExpiresByType font/opentype "access plus 1 month"
+# ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+# ExpiresByType application/x-font-ttf "access plus 1 month"
+# ExpiresByType application/font-woff "access plus 1 month"
+# ExpiresByType application/font-woff2 "access plus 1 month"
+# ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+
+# # Fonts
+# ExpiresByType font/ttf "access plus 1 year"
+# ExpiresByType font/otf "access plus 1 year"
+# ExpiresByType font/woff "access plus 1 year"
+# ExpiresByType font/woff2 "access plus 1 year"
+# ExpiresByType application/font-woff "access plus 1 year"
+# </IfModule>
+
+
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+	php_flag display_errors Off
+	php_value max_execution_time 700
+	php_value max_input_time 700
+	php_value max_input_vars 1000
+	php_value memory_limit 512M
+	php_value post_max_size 256M
+	php_value session.gc_maxlifetime 1440
+	php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+	php_value upload_max_filesize 256M
+	php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+	php_flag display_errors Off
+	php_value max_execution_time 700
+	php_value max_input_time 700
+	php_value max_input_vars 1000
+	php_value memory_limit 512M
+	php_value post_max_size 256M
+	php_value session.gc_maxlifetime 1440
+	php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+	php_value upload_max_filesize 256M
+	php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+	AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
 #---------------------
 # Start 301 Redirects
 #---------------------
@@ -209,7 +339,7 @@ RedirectMatch 301 ^/personal/online\-atm\-services/ask\-rcu$ /online-mobile-bank
 
 RedirectMatch 301 ^/businessservices/credit\-debit\-atm\-cards$ /business/cards/
 
-RedirectMatch 301 ^/ppp\-resource\-center/loan\-forgiveness\-center$ /ppp-resource-center/
+#RedirectMatch 301 ^/ppp\-resource\-center/loan\-forgiveness\-center$ /ppp-resource-center/
 
 RedirectMatch 301 ^/credit\-card\-appointment$ /about/contact/appointments/credit-card-appointment/
 
@@ -339,7 +469,7 @@ RedirectMatch 301 ^/businessservices/savings$ /business/accounts/savings/
 
 RedirectMatch 301 ^/federal\-relief\-updates/$ /homepage/federal-relief-updates/
 
-RedirectMatch 301 ^/ppp\-resource\-center/loan\-forgiveness\-center/loans\-less\-than\-150k/$ /ppp-resource-center/
+#RedirectMatch 301 ^/ppp\-resource\-center/loan\-forgiveness\-center/loans\-less\-than\-150k/$ /ppp-resource-center/
 
 RedirectMatch 301 ^/personal/loans/sheila\-o'neill$ /contact-sheila-oneill/
 
