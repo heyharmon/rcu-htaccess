@@ -536,6 +536,10 @@ RedirectMatch 301 ^/heloc$ /loans/home/home-equity/
 
 RedirectMatch 301 ^/personal/online\-atm\-services/atms$ /about/contact/atms/
 
+RedirectMatch 301 ^/products/personal/rates\-tables$ /about/current-mortgage-loan-personal-banking-rates/
+
+RedirectMatch 301 ^/products/personal/loans/personal\-other\-loans$ /about/current-mortgage-loan-personal-banking-rates/
+
 # Wildcard redirects for blog
 #---------------------
 RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/(.+?)(-[0-9]+)?$ /about/blog/
