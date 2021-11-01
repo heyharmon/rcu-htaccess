@@ -683,6 +683,10 @@ RedirectMatch 301 ^/docs/default\-source/pdfs/membership_account_disclosure_elec
 # Query string sfvrsn=36b5f2c8_2 ignored!
 RedirectMatch 301 ^/docs/default\-source/pdfs/costrecovery_11_21_2018\.pdf$ https://www.redwoodcu.org/ask-rcu/2003/
 
+# Query string sfvrsn=3a7db9_4 ignored!
+RedirectMatch 301 ^/docs/default\-source/pdfs/324\-direct\-deposit\-1\-18\-form\.pdf$ https://static.redwoodcu.org/pdfs/324-direct-deposit-1-18-form.pdf
+
+
 # Image File Redirects
 #---------------------
 
@@ -706,6 +710,31 @@ RedirectMatch 301 ^/sf\-images/site\-images/equal_housing_lender\.png$ https://s
 RedirectMatch 301 ^/sf\-images/online\-mobile\-banking/header\-offline\-480\.png$ https://static.redwoodcu.org/Images/header-offline-480.png
 
 RedirectMatch 301 ^/sf\-images/online\-mobile\-banking/header\-offline\.png$ https://static.redwoodcu.org/Images/header-offline.png
+
+# Query string sfvrsn=bb3df1c8_4 ignored!
+RedirectMatch 301 ^/sf\-images/default\-source/maintenance\-pages/rcu_logo__pms349green\.png$ https://static.redwoodcu.org/Images/logo-redwood-credit-union.png
+
+# Query string sfvrsn=493ac4c8_2 ignored!
+RedirectMatch 301 ^/sf\-images/default\-source/iconography/color\-icons/openaccount_icondtd\.png$ https://static.redwoodcu.org/Images/iconography/color-icons/openaccount_icondtd.png
+
+# Query string sfvrsn=4d3ac4c8_2 ignored!
+RedirectMatch 301 ^/sf\-images/default\-source/iconography/color\-icons/personalloan_icondtd\.png$ https://static.redwoodcu.org/Images/iconography/color-icons/personalloan_icondtd.png
+
+# Query string sfvrsn=c93ec4c8_5 ignored!
+RedirectMatch 301 ^/sf\-images/default\-source/iconography/color\-icons/atm\-blog2\.png$ https://static.redwoodcu.org/Images/iconography/color-icons/atm-blog2.png
+
+# Query string sfvrsn=efe8c4c8_2 ignored!
+RedirectMatch 301 ^/sf\-images/default\-source/site\-images/molb_maintenance_2\.png$ https://static.redwoodcu.org/Images/molb_maintenance_2.png
+
+# Query string Status=Master&sfvrsn=753ac4c8_2 ignored!
+RedirectMatch 301 ^/sf\-images/default\-source/iconography/color\-icons/onlinebanking_icondtd\.png$ https://static.redwoodcu.org/Images/iconography/color-icons/onlinebanking_icondtd.png
+
+RedirectMatch 301 ^/maintenance\-page$ https://static.redwoodcu.org/maintenance-page.html
+
+RedirectMatch 301 ^/mobile\-maintenance\-page$ https://static.redwoodcu.org/mobile-maintenance-page.html
+
+RedirectMatch 301 ^/olb\-maintenance\-page/$ https://static.redwoodcu.org/olb-maintenance-page.html
+
 
 #---------------------
 # End 301 Redirects
