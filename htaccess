@@ -727,6 +727,8 @@ RedirectMatch 301 ^/mobile\-maintenance\-page$ https://static.redwoodcu.org/mobi
 
 RedirectMatch 301 ^/olb\-maintenance\-page/$ https://static.redwoodcu.org/olb-maintenance-page.html
 
+RedirectMatch 301 ^/business/accounts/savings/business\-share\-savings/$ /business/accounts/savings/business-savings/
+
 
 #---------------------
 # End 301 Redirects
