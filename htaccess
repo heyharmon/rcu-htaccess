@@ -467,8 +467,6 @@ RedirectMatch 301 ^/about\-rcu/press\-room$ /about/press/press-room/
 
 RedirectMatch 301 ^/businessservices/savings$ /business/accounts/savings/
 
-RedirectMatch 301 ^/federal\-relief\-updates/$ /homepage/federal-relief-updates/
-
 #RedirectMatch 301 ^/ppp\-resource\-center/loan\-forgiveness\-center/loans\-less\-than\-150k/$ /ppp-resource-center/
 
 RedirectMatch 301 ^/personal/loans/sheila\-o'neill$ /contact-sheila-oneill/
