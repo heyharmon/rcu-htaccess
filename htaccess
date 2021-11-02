@@ -413,7 +413,7 @@ RedirectMatch 301 ^/ira\-account\-appointment$ /about/contact/appointments/ira-a
 
 RedirectMatch 301 ^/about\-rcu/about\-rcu/why\-rcu/rcu\-history$ /about/who-we-are/history/
 
-RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/select\-employer\-group$ /seg-saving/
+RedirectMatch 301 ^/about\-rcu/news\-announcements\-specials/select\-employer\-group$ /about/membership/select-employer-groups/
 
 RedirectMatch 301 ^/ask\-rcu/ask\-rcu\-answers$ /about/contact/
 
