@@ -606,12 +606,6 @@ RedirectMatch 301 ^/products/personal/loans/auto\-recreational\-vehicles$ /loans
 
 RedirectMatch 301 ^/personal/investment\-services/investment\-review/blog\-details/investment\-review/2021/10/13/september\-market\-recap$ /about/blog/september-market-recap/
 
-RedirectMatch 301 ^/sf\-bonus$ /sf-investment-offer/
-
-RedirectMatch 301 ^/napa\-bonus$ /napa-offer/
-
-RedirectMatch 301 ^/lake\-bonus$ /lake-offer
-
 RedirectMatch 301 ^/personal\-insurance\-services\-appointment$ /about/contact/appointments/personal-insurance-services-appointment/
 
 RedirectMatch 301 ^/business\-insurance\-services\-appointment$ /about/contact/appointments/business-insurance-services-appointment/
