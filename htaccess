@@ -1,3 +1,20 @@
+# BloomCU security
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  <FilesMatch "\.(php|html)$">
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Download-Options "noopen"
+    Header set Pragma "no-cache"
+    Header set Cache-Control "must-revalidate, no-cache"
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+Header set Referrer-Policy "no-referrer-when-downgrade"
+ 
+### Advance Header Mods START ###
+### Advance Header Mods END ###
+  </FilesMatch>
+</IfModule>
+
 
 #wp-login acess limiting
 <Files wp-login.php>
@@ -120,13 +137,6 @@ allow from 198.217.123.5
 	php_flag zlib.output_compression Off
 </IfModule>
 # END cPanel-generated php ini directives, do not edit
-
-# php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php74” package as the default “PHP” programming language.
-<IfModule mime_module>
-	AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
-</IfModule>
-# php -- END cPanel-generated handler, do not edit
 
 #---------------------
 # Start 301 Redirects
@@ -594,7 +604,7 @@ RedirectMatch 301 ^/businessservices/online\-eservices/estatements$ /business/on
 
 RedirectMatch 301 ^/businessservices/online\-eservices/visa\-online$ /business/cards/business-visa-platinum/
 
-#Testing to Fix Fuze Redirect
+#Fuze Redirect Test
 #RedirectMatch 301 ^/ask\-rcu/article$ /
 
 RedirectMatch 301 ^/products/personal/online\-eservices\-mobile/rcu\-online\-banking$ /online-mobile-banking/online-banking/
@@ -690,3 +700,10 @@ RedirectMatch 301 ^/business/accounts/savings/business\-share\-savings/$ /busine
 #---------------------
 # End 301 Redirects
 #---------------------
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
