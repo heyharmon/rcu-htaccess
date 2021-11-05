@@ -605,7 +605,7 @@ RedirectMatch 301 ^/businessservices/online\-eservices/estatements$ /business/on
 RedirectMatch 301 ^/businessservices/online\-eservices/visa\-online$ /business/cards/business-visa-platinum/
 
 #Fuze Redirect Test
-RedirectMatch 301 ^/ask\-rcu/article?kbid$ /ask-rcu$
+#RedirectMatch 301 ^/ask\-rcu/article /ask-rcu
 
 RedirectMatch 301 ^/products/personal/online\-eservices\-mobile/rcu\-online\-banking$ /online-mobile-banking/online-banking/
 
